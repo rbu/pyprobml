@@ -1,0 +1,3 @@
+[submodule "pmtk3"]
+	path = pmtk3
+	url = ./pmtk3
