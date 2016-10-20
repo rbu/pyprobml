@@ -5,10 +5,10 @@ import os
 import sys
 
 # We assume the directory structure is as follows:
-# .../github/pmtk3/python -- location of this file
-# .../github/pmtk3/data
+# .../github/pyprobml/ -- location of this file
+# .../github/pyprobml/pmtk3/data -- actually a submodule, so 'git submodule init && git submodule update' to get it
 
-print "welcome to pmtk3 python code"
+print("welcome to pmtk3 python code")
 PMTK_PYTHON_DIR = path.dirname(path.abspath(__file__))
 PMTK_DIR = path.join(PMTK_PYTHON_DIR, 'pmtk3')
 # GITHUB_DIR = path.dirname(PMTK_DIR)
