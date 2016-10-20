@@ -128,7 +128,7 @@ def load_mat(matName):
     """look for the .mat file in pmtk3/pmtkdataCopy/
     currently only support .mat files create by Matlab 5,6,7~7.2,
     """
-    print 'looking for ', matName, ' in ', DATA_DIR
+    print('looking for ' + matName + ' in ' + DATA_DIR)
     try:
         data = sio.loadmat(os.path.join(DATA_DIR, matName))
     except NotImplementedError:
